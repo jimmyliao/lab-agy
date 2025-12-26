@@ -6,15 +6,12 @@
 
 # 🚀 Get Started with Google Antigravity
 
-<a href="antigravity://clone?url=https://github.com/jimmyliao/lab-agy.git">
-  <img src="https://www.instagram.com/p/DRNhZP4jScf/media/?size=l" width="160" alt="Open in Antigravity">
-</a>
+<img src="https://www.instagram.com/p/DRNhZP4jScf/media/?size=l" width="160" alt="Antigravity">
 
-### [Open in Google Antigravity](antigravity://clone?url=https://github.com/jimmyliao/lab-agy.git)
-
-1. Click the button above.
-2. Google Antigravity will automatically open the **Clone Repository** dialog.
-3. The URL `https://github.com/jimmyliao/lab-agy.git` is pre-filled.
+1. Open **Google Antigravity**.
+2. Click **Clone Repository** in the launcher.
+3. Copy and paste the repository URL:
+   `https://github.com/jimmyliao/lab-agy`
 4. Press **Enter** to start Vibe Coding.
 
 ---
