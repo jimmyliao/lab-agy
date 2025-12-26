@@ -6,15 +6,12 @@
 
 # 🚀 使用 Google Antigravity 快速開始
 
-<a href="antigravity://clone?url=https://github.com/jimmyliao/lab-agy.git">
-  <img src="https://www.instagram.com/p/DRNhZP4jScf/media/?size=l" width="160" alt="在 Google Antigravity 中開啟">
-</a>
+<img src="https://www.instagram.com/p/DRNhZP4jScf/media/?size=l" width="160" alt="Antigravity">
 
-### [在 Google Antigravity 中開啟](antigravity://clone?url=https://github.com/jimmyliao/lab-agy.git)
-
-1. 點擊上方的按鈕。
-2. Google Antigravity 會自動開啟 **Clone Repository** 對話框。
-3. 儲存庫網址 `https://github.com/jimmyliao/lab-agy.git` 已預先填入。
+1. 開啟 **Google Antigravity**。
+2. 在啟動器中點擊 **Clone Repository**。
+3. 複製並貼上專案連結：
+   `https://github.com/jimmyliao/lab-agy`
 4. 按下 **Enter** 鍵即可開始 Vibe Coding。
 
 ---
