@@ -6,11 +6,9 @@
 
 # 🚀 使用 Google Antigravity 快速開始
 
-<a href="antigravity://clone?url=https://github.com/jimmyliao/lab-agy.git">
-  <img src="https://www.instagram.com/p/DRNhZP4jScf/media/?size=l" width="180" alt="Open in Antigravity">
-</a>
+[![在 Google Antigravity 中開啟](https://www.instagram.com/p/DRNhZP4jScf/media/?size=l)](https://antigravity.google/clone?url=https://github.com/jimmyliao/lab-agy.git)
 
-### [在 Google Antigravity 中開啟](antigravity://clone?url=https://github.com/jimmyliao/lab-agy.git)
+### [在 Google Antigravity 中開啟](https://antigravity.google/clone?url=https://github.com/jimmyliao/lab-agy.git)
 
 1. 點擊上方的按鈕。
 2. Google Antigravity 會自動開啟 **Clone Repository** 對話框。
