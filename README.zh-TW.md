@@ -1,10 +1,10 @@
-# The Agentic Lens (代理人透鏡)
+# The Agentic Lens
 
 [English](README.md) | [繁體中文](README.zh-TW.md)
 
 ---
 
-# 🚀 使用 Google Antigravity 快速開始
+# 🚀 Get Started with Google Antigravity
 
 <img src="https://www.instagram.com/p/DRNhZP4jScf/media/?size=l" width="160" alt="Antigravity">
 
