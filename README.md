@@ -7,6 +7,8 @@
 ## Overview
 A modern news platform showcasing the latest in Agentic AI and Enterprise solutions.
 
+![Preview](./preview.png)
+
 ## Architecture
 - **Web App**: Next.js
 - **API**: FastAPI
