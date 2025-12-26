@@ -34,3 +34,10 @@ A modern news platform showcasing the latest in Agentic AI and Enterprise soluti
 
 ## AI Agents
 AI assistants should refer to [AGENTS.md](AGENTS.md) for detailed instructions.
+
+## Antigravity Power-Ups
+This project leverages Google Antigravity features to enhance development:
+- **Rules (`.antigravity/rules.md`)**: Automatically applied coding standards and behavior guidelines for AI agents.
+- **Workflows (`.agent/workflows/`)**: Pre-defined automation scripts.
+  - `/start-dev`: Start the full stack development environment.
+  - `/deploy-firebase`: Deploy the frontend to Firebase Hosting.

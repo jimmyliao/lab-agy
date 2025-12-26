@@ -34,3 +34,10 @@
 
 ## AI 代理人 (Agents)
 AI 助手請參閱 [AGENTS.md](AGENTS.md) 以獲取詳細的開發規範與指令。
+
+## Antigravity 強大功能 (Rules & Workflows)
+本專案利用 Google Antigravity 功能來提升開發效率：
+- **規則 (`.antigravity/rules.md`)**: 自動套用的編碼規範與 AI 行為準則，例如確保所有回應皆使用繁體中文。
+- **工作流 (`.agent/workflows/`)**: 預定義的自動化腳本，Agent 可隨時呼叫。
+  - `/start-dev`: 啟動包含 Frontend, Backend, DB, Milvus 的全端開發環境。
+  - `/deploy-firebase`: 將前端靜態輸出部署至 Firebase Hosting。
