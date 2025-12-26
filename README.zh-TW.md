@@ -10,6 +10,7 @@
 
 1. 開啟 **Google Antigravity**。
 2. 在啟動器中點擊 **Clone Repository**。
+   <img src="antigravity-launcher.png" width="500" alt="Antigravity Launcher">
 3. 複製並貼上專案連結：
    `https://github.com/jimmyliao/lab-agy`
 4. 按下 **Enter** 鍵即可開始 Vibe Coding。

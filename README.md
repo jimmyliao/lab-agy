@@ -10,6 +10,7 @@
 
 1. Open **Google Antigravity**.
 2. Click **Clone Repository** in the launcher.
+   <img src="antigravity-launcher.png" width="500" alt="Antigravity Launcher">
 3. Copy and paste the repository URL:
    `https://github.com/jimmyliao/lab-agy`
 4. Press **Enter** to start Vibe Coding.
