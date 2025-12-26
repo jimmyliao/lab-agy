@@ -6,9 +6,11 @@
 
 # 🚀 Get Started with Google Antigravity
 
-[![Open in Antigravity](https://www.instagram.com/p/DRNhZP4jScf/media/?size=l)](https://antigravity.google/clone?url=https://github.com/jimmyliao/lab-agy.git)
+<a href="antigravity://clone?url=https://github.com/jimmyliao/lab-agy.git">
+  <img src="https://www.instagram.com/p/DRNhZP4jScf/media/?size=l" width="160" alt="Open in Antigravity">
+</a>
 
-### [Open in Google Antigravity](https://antigravity.google/clone?url=https://github.com/jimmyliao/lab-agy.git)
+### [Open in Google Antigravity](antigravity://clone?url=https://github.com/jimmyliao/lab-agy.git)
 
 1. Click the button above.
 2. Google Antigravity will automatically open the **Clone Repository** dialog.
