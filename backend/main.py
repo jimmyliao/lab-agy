@@ -28,6 +28,15 @@ engine = create_async_engine(DATABASE_URL, echo=True)
 MILVUS_HOST = os.getenv("MILVUS_HOST", "localhost")
 MILVUS_PORT = os.getenv("MILVUS_PORT", "19530")
 
+@app.on_event("startup")
+async def startup_event():
+    # Attempt to connect to Milvus on startup
+    try:
+        connections.connect("default", host=MILVUS_HOST, port=MILVUS_PORT)
+        print(f"Connected to Milvus at {MILVUS_HOST}:{MILVUS_PORT}")
+    except Exception as e:
+        print(f"Failed to connect to Milvus on startup: {e}")
+
 @app.get("/")
 def read_root():
     return {"message": "Hello from FastAPI Agentic Backend"}
@@ -46,9 +55,14 @@ async def health_check():
 
     # Check Milvus
     try:
-        connections.connect("default", host=MILVUS_HOST, port=MILVUS_PORT)
-        if utility.get_server_version():
-            status["milvus"] = "connected"
+        if connections.has_connection("default"):
+             if utility.get_server_version():
+                status["milvus"] = "connected"
+        else:
+            # Try reconnecting if not connected
+            connections.connect("default", host=MILVUS_HOST, port=MILVUS_PORT)
+            if utility.get_server_version():
+                status["milvus"] = "connected"
     except Exception as e:
         status["milvus"] = f"error: {str(e)}"
     
