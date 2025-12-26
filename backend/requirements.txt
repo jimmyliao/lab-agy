@@ -1,8 +1,5 @@
 fastapi
-uvicorn[standard]
+uvicorn
 sqlalchemy
 asyncpg
-psycopg2-binary
 pymilvus
-pydantic-settings
-python-dotenv
