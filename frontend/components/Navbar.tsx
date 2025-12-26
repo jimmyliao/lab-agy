@@ -10,8 +10,8 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="hidden md:flex items-center space-x-4">
-           <Link href="/about" className="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">About</Link>
-           <button className="bg-black text-white px-4 py-2 rounded-md text-sm font-medium">Subscribe</button>
+          <Link href="/about" className="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">About</Link>
+          <Link href="/subscribe" className="bg-black text-white px-4 py-2 rounded-md text-sm font-medium">Subscribe</Link>
         </div>
       </div>
     </header>
